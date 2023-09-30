@@ -1,32 +1,19 @@
-*{font-size: 100%;}
-header,footer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    height: 15vh;
-    }
-.container{
-    display: grid;
-    grid-template-rows: 0 10% 90%;
-    grid-template-columns: 30% 70%;
-    height: 80vh;
-    }
+*{
+    font-size: 100%;
+}
 header{ 
      background-color: #A89756;
      }
 header:hover{
     background-color: #000;
     }
-.nav{
-    grid-area: 2 / 1 / 3 / 3;
-    background-color: #F5D971;
-    }
+ul {
+        list-style-type: none;
+        box-sizing: border-box;
+      }
 li{
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    margin:1px;
+    display: inline;
 
 }
 a:hover{
@@ -40,9 +27,85 @@ a:hover{
     grid-area: 3 / 2 / 4 / 3;
     background-color: #5BA834;
     }
-.item{
-    text-align: center;
+.nav{
+    grid-area: 2 / 1 / 3 / 3;
+    background-color: #F5D971;
+        
     }
-footer{
-    background-color: #8CF558;
+header,footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+    }
+.container{
+    display: grid;
+    grid-template-rows: 0 10% 90%;
+    grid-template-columns: 30% 70%;
+    height: 85vh;
+    }
+    .item{
+        text-align: center;
+        }
+    footer{
+        background-color: #8CF558;
+        }
+
+@media only screen and (max-width:600px){
+
+    *{
+        font-size: 100%;
+    }
+    header{ 
+         background-color: #003cff;
+         }
+    header:hover{
+        background-color: #8b7777;
+        }
+    ul {
+            list-style-type: none;
+            box-sizing: border-box;
+          }
+    li{
+        margin:1px;
+        display: inline;
+    
+    }
+    a:hover{
+        color: #c71919;
+    }
+    .aside{ 
+        grid-area: 4 / 1 / 5 / 2;
+        background-color: #A864F5;
+        }
+    .main{ 
+        grid-area: 3 / 1 / 4 / 2;
+        background-color: #5BA834;
+        }
+    .nav{
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: #F5D971;
+        }
+    header,footer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            height: 15vh;
+            }
+    .container{
+            display: grid;
+            grid-template-rows: 0 5% 75% 20%;
+            grid-template-columns: 100%;
+            height: 85vh;
+            }
+            .item{
+                text-align: center;
+                }
+            footer{
+                background-color: #8CF558;
+                }
     }
