@@ -22,6 +22,7 @@ a:hover{
 .aside{ 
     grid-area: 3 / 1 / 4 / 2;
     background-color: #A864F5;
+
     }
 .main{ 
     grid-area: 3 / 2 / 4 / 3;
@@ -29,8 +30,7 @@ a:hover{
     }
 .nav{
     grid-area: 2 / 1 / 3 / 3;
-    background-color: #F5D971;
-        
+    background-color: #F5D971;        
     }
 header,footer{
     display: flex;
@@ -79,6 +79,9 @@ header,footer{
     .aside{ 
         grid-area: 4 / 1 / 5 / 2;
         background-color: #A864F5;
+        max-height: 100%;
+        ;
+
         }
     .main{ 
         grid-area: 3 / 1 / 4 / 2;
@@ -87,6 +90,7 @@ header,footer{
     .nav{
         grid-area: 2 / 1 / 3 / 2;
         background-color: #F5D971;
+   
         }
     header,footer{
             display: flex;
@@ -95,17 +99,21 @@ header,footer{
             align-items: center;
             text-align: center;
             height: 15vh;
+
             }
     .container{
             display: grid;
-            grid-template-rows: 0 5% 75% 20%;
+            grid-template-rows: 0 10% 75% auto;
             grid-template-columns: 100%;
             height: 85vh;
+            overflow: auto;
+            flex-grow: 1;
             }
             .item{
                 text-align: center;
                 }
             footer{
                 background-color: #8CF558;
+                overflow: auto;
                 }
     }
