@@ -39,7 +39,8 @@ header,footer{
 }
 .responsive{
     display: grid;
-    grid-template-columns: 33% auto 33% ;
+    grid-template-columns: auto auto auto;
+    align-items: center;
     grid-template-rows: auto;
     
 }
@@ -65,15 +66,7 @@ img{
 
 @media only screen and (max-width:768px){
 
-    *{
-        font-size: 100%;
-    }
-    header{ 
-         background-color: #003cff;
-         }
-    header:hover{
-        background-color: #8b7777;
-        }
+    
     ul {
             list-style-type: none;
             box-sizing: border-box;
@@ -101,7 +94,7 @@ img{
         }   
         .responsive{
             display: grid;
-            grid-template-columns: 100%;
+            grid-template-columns: 50% 50%;
             align-items: center;
             grid-template-rows: auto;
         }
@@ -129,3 +122,61 @@ img{
                 overflow: auto;
                 }
     }
+    @media only screen and (max-width:425px){
+
+    
+        ul {
+                list-style-type: none;
+                box-sizing: border-box;
+              }
+        li{
+            margin:1px;
+            display: inline;
+        
+        }
+        a:hover{
+            color: #c71919;
+        }
+        .aside{ 
+            grid-area: 12 / 1 / 13 / 2;
+            background-color: #A864F5;
+            }
+        .main{ 
+            grid-area: 3 / 1 / 12 / 2;
+            background-color: #5BA834;
+            }
+        .nav{
+            grid-area: 2 / 1 / 3 / 2;
+            background-color: #F5D971;
+       
+            }   
+            .responsive{
+                display: grid;
+                grid-template-columns: 100%;
+                align-items: center;
+                grid-template-rows: auto;
+            }
+        header,footer{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                text-align: center;
+                height: 15vh;
+                }
+        .container{
+                display: grid;
+                grid-template-rows: 0 10% 75% auto;
+                grid-template-columns: 100%;
+                overflow:auto;
+                flex-grow: 1;
+                height: 85vh;
+                }
+                .item{
+                    text-align: center;
+                    }
+                footer{
+                    background-color: #8CF558;
+                    overflow: auto;
+                    }
+        }
