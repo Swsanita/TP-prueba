@@ -41,7 +41,10 @@ header,footer{
     display: grid;
     grid-template-columns: 33% auto 33% ;
     grid-template-rows: auto;
+    
 }
+.item_gal:hover {
+    border: 1px solid #d82e2e;}
 img{
     display: grid;
     height: 15vh;
@@ -98,7 +101,8 @@ img{
         }   
         .responsive{
             display: grid;
-            grid-template-columns: auto;
+            grid-template-columns: 100%;
+            align-items: center;
             grid-template-rows: auto;
         }
     header,footer{
