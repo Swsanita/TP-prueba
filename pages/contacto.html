@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="../src/img/gato4.ico">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendiendo sobre GATOS</title>
-</head>
-<body>
-    <header>
-        <h1>
-            <b><u>Contacto</u></b></h1>
-        <h4>Frase copada de gancho, inspiracional para invitar a seguir leyendo</h4>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../src/img/gato4.ico">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/contacto.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aprendiendo sobre GATOS</title>
+    </head>
+
+    <body>
+        <header>
+
+            <h4>Frase copada de gancho, inspiracional para invitar a seguir leyendo</h4>
+            <hr>
+        </header>
+
+        <!-- El menu principal-->
+        <nav>
+            <ul type="square">
+                <li><a href="../index3.html">Inicio</a></li>
+                <li><a href="informacion_especifica.html">Información Específica</a></li>
+                <li><a href="datos_extra.html">Datos Extra</a></li>
+            </ul>
+            <hr>
+            <p><img src="../src/img/gato_perro.jpeg" alt="gato1" width="300" height=auto></p>
+            <hr>
+        </nav>
+
+        <!-- Contenido principal -->
+        <main>
+            <form action="">
+                <h2>CONTACTO</h2>
+                <input type="text" name="nombre" placeholder="Ingrese aqui su nombre">
+                <input type="email" name="correo" placeholder="Ingrese aqui su email">
+                <input type="tel" name="telefono" placeholder="Ingrese aqui su numero de contacto">
+                <textarea name="mensaje" placeholder="Escriba aqui su comentario" cols="30" rows="10"></textarea>
+                <input type="button" value="ENVIAR" id="boton">
+            </form>
+
+            <div class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3284.022263559031!2d-58.385074805005715!3d-34.60359852948828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sobelisco!5e0!3m2!1ses-419!2sar!4v1695685366630!5m2!1ses-419!2sar"
+                    width="400" height="200" style="border: 1;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p>DIRECCIÓN : Av 9 de Julio y Av. Corrientes . CABA. </p>
+            </div>
+
+        </main>
+
         <hr>
-    </header>
 
-    <!-- El menu principal-->
-<nav>
-    <ul type="square">
-        <li><a href="../index.html">Inicio</a></li> 
-        <li><a href="informacion_especifica.html">Información Específica</a></li> 
-        <li><a href="datos_extra.html">Datos Extra</a></li>
-    </ul>
-    <hr>  
-    <p><img src="../src/img/gato_perro.jpeg" alt="gato1" width="300" height=auto></p>
-    <hr>
-</nav>
+        <footer>
+            <div class="footer">
+                <h2 class="titulo-footer">Nuestras Redes</h2>
+            </div>
+            <div class="redes">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="contenedor">
+                <p class="copy">@ 2023 / Todos los derechos reservados</p>
+            </div>
+        </footer>
+        <script src="https://kit.fontawesome.com/8c686a0e18.js" crossorigin="anonymous"></script>
+    </body>
 
-    <!-- Contenido principal -->
-<main>
-<h5><b>>Datos de Contacto</b></h5>
-<span>FACEBOOK<br><br>INSTAGRAM<br><br>YOUTUBE<br><br>X<br><br>DIRECCIÓN : Av 9 de Julio y Av. Corrientes . CABA. <br>
-    <br>
-    <div class="container"><!--Este div esta solamente para centrar el iframe-->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3284.022263559031!2d-58.385074805005715!3d-34.60359852948828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sobelisco!5e0!3m2!1ses-419!2sar!4v1695685366630!5m2!1ses-419!2sar" width="500" height="200" style="border: 1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-<br></span>
-</main>
-
-<hr><footer>
-<h5><b>Esperamos haberte podido ayudar, exitos buscando tu futura mascota</b></h5>
-
-<p></p>
-<p><img src="../src/img/gato1.jpeg" alt="zocalo" width="300" height=auto>
-</p>
-</footer>
-</body>
 </html>

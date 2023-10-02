@@ -17,3 +17,27 @@ p{
 .container{
     text-align: center;
     }
+
+footer{
+    background: #31184a;
+    padding: 15px;
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+    }
+footer .titulo-footer,
+footer div h2,
+footer .copy{
+    color: #000000;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes i{
+    font-size: 30px;
+    padding: 0 20px;
+}
+i:hover{
+    cursor: pointer;
+}
