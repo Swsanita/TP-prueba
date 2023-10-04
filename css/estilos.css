@@ -3,6 +3,11 @@ h1{
     font-family:ComicSansMS;
     color:green;
     }
+h3{
+    text-align: left;
+    font-family:ComicSansMS;
+    color:rgb(70, 167, 205);
+    }
 h4{
     text-align: center;
     font-family:ComicSansMS;
@@ -11,6 +16,11 @@ h4{
 h5{
     text-align: center;
     }
+h6{
+    text-align: center;
+    font-family:ComicSansMS;
+    color:rgb(70, 167, 205);
+   }
 p{
     text-align: center;
     }
