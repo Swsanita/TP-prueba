@@ -17,13 +17,15 @@ h5{
     text-align: center;
     }
 h6{
-    text-align: center;
+    text-align: justify ;
     font-family:ComicSansMS;
-    color:rgb(70, 167, 205);
+    color:rgb(87, 135, 154);
    }
+
 p{
     text-align: center;
     }
+    
 .container{
     text-align: center;
     }
