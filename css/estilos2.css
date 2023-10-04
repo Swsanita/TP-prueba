@@ -71,8 +71,8 @@ img{
         text-align: center;
         }
     footer{
-        background-color: #8CF558;
-        }
+        overflow-y: auto;           
+    }
 
 @media only screen and (max-width:768px){
 
@@ -91,8 +91,6 @@ img{
     }
     .aside{ 
         grid-area: 12 / 1 / 13 / 2;
-       /* background-color: #A864F5;
-        background-image: linear-gradient(to bottom,#A864F5,#000000);*/
         background-color:#F5D971;
         background-image: linear-gradient(#F5D971, #ffc800);
         }
@@ -131,10 +129,8 @@ img{
                 text-align: center;
                 }
             footer{
-                background-color: #8CF558;
-                overflow-y: auto;
-                }
-    }
+                overflow-y: auto;  
+            }}
     @media only screen and (max-width:425px){
 
     
@@ -189,7 +185,11 @@ img{
                     text-align: center;
                     }
                 footer{
-                    background-color: #8CF558;
+                    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                    url("../src/img/footer.jpg");
+                    background-size: 100%;
+                    background-attachment: fixed;
+                    margin:0;
                     overflow-y: auto;
                     }
         }
