@@ -6,28 +6,22 @@
         <link rel="icon" href="../src/img/gato4.ico">
         <link rel="stylesheet" href="../css/estilos.css">
         <link rel="stylesheet" href="../css/contacto.css">
+        <script src="../js/main.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aprendiendo sobre GATOS</title>
     </head>
 
     <body>
-        <header>
-
-            <h1> ¡Simplemente porque los amamos!</h1>
-            <hr>
-        </header>
-
         <!-- El menu principal-->
-        <nav>
-            <ul type="square">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="informacion_especifica.html">Información Específica</a></li>
-                <li><a href="datos_extra.html">Datos Extra</a></li>
-            </ul>
-            <hr>
-            <p><img src="../src/img/gato_perro.jpeg" alt="gato1" width="300" height=auto></p>
-            <hr>
-        </nav>
+        <header>
+            <section>
+                <ul type="square">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="informacion_especifica.html">Información Específica</a></li>
+                    <li><a href="datos_extra.html">Datos Extra</a></li>
+                </ul>
+            </section>
+        </header>
 
         <!-- Contenido principal -->
         <main>
@@ -36,7 +30,8 @@
                 <input type="text" name="nombre" placeholder="Ingrese aqui su nombre" required>
                 <input type="email" name="correo" placeholder="Ingrese aqui su email" required>
                 <input type="number" name="telefono" placeholder="Ingrese aqui su numero de contacto (opcional)">
-                <textarea name="mensaje" placeholder="Escriba aqui su comentario, duda o suferencia" cols="30" rows="10" required></textarea>
+                <textarea name="mensaje" placeholder="Escriba aqui su comentario, duda o suferencia" cols="30" rows="10"
+                    required></textarea>
                 <input type="submit" value="ENVIAR" id="boton">
             </form>
 
