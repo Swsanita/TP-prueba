@@ -5,15 +5,22 @@
 h1{
     text-align: center;
     font-family:ComicSansMS;
-    color:green;
+    color:rgb(0, 60, 128);
     font-size: 1.5em;
     padding-top: 5%;
+    width: auto;
+    font-family: ComicSansMS;
+    font-weight: 700;
+    background-color: rgb(127, 206, 255);
+    border-radius: 10px;
+    padding: 4px 5px;
+    color: #fff;
     }
 h3{
     text-align: left;
     font-family:ComicSansMS;
     color:rgb(70, 167, 205);
-    font-size: 0.5em;
+    font-size: 0.8em;
     padding-top: 10%;
     }
 h4{
