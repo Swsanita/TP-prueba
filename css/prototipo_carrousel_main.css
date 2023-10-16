@@ -1,0 +1,261 @@
+*{
+    font-size: 1.04em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family:ComicSansMS;
+    color:rgb(0, 60, 128);
+    font-size: 1.5em;
+    padding-top: 5%;
+    width: auto;
+    font-family: ComicSansMS;
+    font-weight: 700;
+    background-color: rgb(127, 206, 255);
+    border-radius: 10px;
+    padding: 4px 5px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-family:ComicSansMS;
+    color:rgb(31, 63, 76);
+    font-size: 0.8em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+h3{
+    text-align: left;
+    font-family:ComicSansMS;
+    color:rgb(44, 91, 109);
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-left: 10%;
+    }
+h4{
+    text-align: center;
+    font-family:ComicSansMS;
+    color:green;
+}
+h5{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* sin usar*/
+h6{
+    text-align: justify ;
+    font-family:ComicSansMS;
+    color:rgb(87, 135, 154);
+   }
+
+p{
+    text-align: left;
+    }
+a{
+    text-decoration: none;
+    color:rgb(70, 167, 205);
+    font-size: 90%;
+    }
+a:hover{
+    background: hsl(0, 0%, 95%);
+    color: rgb(127, 206, 255);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    animation: mymove 8s infinite;
+    flex-direction: row; 
+}
+
+iframe{
+    display: grid;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 10%;
+}    
+    
+footer{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("../src/img/footer.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin:0;
+    overflow-y: auto;
+    flex-direction: row;
+}
+
+.img_header{
+    display: grid;
+    height: 15vh;
+    width: 100%;
+}
+
+.img_inner{
+    border-radius: 100px;
+} 
+
+.img_galeria{
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    height: 300px;
+
+} 
+
+.redes{
+    align-items: center;
+
+}     
+.nav_menu{
+    display:inline-block;
+    width: auto;
+    font-family: ComicSansMS;
+    font-weight: 700;
+    background-color: rgb(127, 206, 255);
+    border-radius: 10px;
+    padding: 4px 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: #fff;
+    text-decoration: none;
+}
+.nav_menu:hover{
+    background: hsl(0, 0%, 95%);
+    border: 1px solid rgb(127, 206, 255);
+}
+
+header,footer{
+                flex-direction: row;
+            }
+    .container{
+                display: grid;
+                grid-template-rows: 0 10% 75% auto;
+                grid-template-columns: 95%;
+                overflow-y:auto;
+                flex-grow: 1;
+                height: 85vh;
+                }
+    .item{
+            text-align: center;
+            }
+footer{
+            background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+            url("../src/img/footer.jpg");
+            }
+        }
+
+
+
+
+
+
+
+
+
+/* carrousel */
+
+.carrousel{
+    width: 100%;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.item
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-color: rgb(212, 146, 146);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(212, 146, 146);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(188, 199, 128);
+}
+#itemCarrousel-4{
+    background-color: rgb(161, 214, 223);
+}
+
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+
+/* footer */
+
+footer .titulo-footer,
+footer div h2,
+footer .copy{
+    color: #4b82e2;
+}
+footer p{
+    text-align: center;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes i{
+    font-size: 30px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    color: #4b82e2;
+}
+i:hover{
+    cursor: pointer;
+}
