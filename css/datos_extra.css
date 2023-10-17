@@ -80,6 +80,7 @@ iframe{
     display: grid;
     border-radius: 20px;
     margin-top: 10%;
+    overflow: hidden;
 }    
     
 footer{
