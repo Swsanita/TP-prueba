@@ -4,7 +4,84 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+li{
+    display: inline;
+    background:#48f3ff;
+    padding: 0.4em;
+    margin: 15px;
+    border-radius: 0.6em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(70, 167, 205);
+}
+li:hover{
+    background: #ffffff;
+}
+.nav_menu:hover{
+    color: hsl(0, 0%, 95%);
+}
+/*///////////////////////////////////////*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    background: #48f3ff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Estilos para los elementos de la lista */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }/*/////////////////////////////////*/
+  main{ 
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff, #48f3ff);
+}
+nav{
+    grid-area: 2 / 1 / 3 / 4;
+    background-color:#F5D971;
+    background-image: linear-gradient(#F5D971, #ffc800);
+    padding-top: 1.2em;
+    animation-name: container_move;
+    animation-duration: 2s;
+    height: 80px;
+}      
+nav:hover{
+    background-color: #e6e2e1;
+    color: rgb(0, 0, 0);
+}
+header{
+    animation: mymove 20s infinite both;
+}
+header h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+.fa-solid,.fa-cat{
+    text-align: center;
+    font-size: 1.8em;
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+div.gal{
     text-align: center;
     font-family:ComicSansMS;
     color:rgb(0, 60, 128);
@@ -62,18 +139,12 @@ p{
 a{
     text-decoration: none;
     color:rgb(70, 167, 205);
-    font-size: 90%;
     }
 a:hover{
     background: hsl(0, 0%, 95%);
     color: rgb(127, 206, 255);
 }
 
-header{
-    background-color: rgb(255, 255, 255);
-    animation: mymove 8s infinite;
-    flex-direction: row; 
-}
 
 iframe{
     display: grid;
@@ -82,21 +153,6 @@ iframe{
     margin-top: 10%;
 }    
     
-footer{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-    url("../src/img/footer.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    margin:0;
-    overflow-y: auto;
-    flex-direction: row;
-}
-
-.img_header{
-    display: grid;
-    height: 15vh;
-    width: 100%;
-}
 
 .img_inner{
     border-radius: 100px;
@@ -114,53 +170,10 @@ footer{
 .redes{
     align-items: center;
 
-}     
-.nav_menu{
-    display:inline-block;
-    width: auto;
-    font-family: ComicSansMS;
-    font-weight: 700;
-    background-color: rgb(127, 206, 255);
-    border-radius: 10px;
-    padding: 4px 5px;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    color: #fff;
-    text-decoration: none;
-}
-.nav_menu:hover{
-    background: hsl(0, 0%, 95%);
-    border: 1px solid rgb(127, 206, 255);
-}
-
-header,footer{
-                flex-direction: row;
-            }
-    .container{
-                display: grid;
-                grid-template-rows: 0 10% 75% auto;
-                grid-template-columns: 95%;
-                overflow-y:auto;
-                flex-grow: 1;
-                height: 85vh;
-                }
+} 
     .item{
             text-align: center;
             }
-footer{
-            background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-            url("../src/img/footer.jpg");
-            }
-        }
-
-
-
-
-
-
-
-
-
 /* carrousel */
 
 .carrousel{
@@ -169,20 +182,19 @@ footer{
 
 .conteCarrousel{
     width: 100%;
-    height: 1200px;
-    overflow: hidden;
+    height: 750px;
+    overflow-y: hidden;
 }
 
 .itemCarrousel{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 750px;
 }
 .item
 
 .itemCarrouselTarjeta{
     width: 100%;
-    height: 100%;
 }
 
 .itemCarrouselArrows{
@@ -227,35 +239,19 @@ footer{
 
 .conteCarrouselController > a{
     text-decoration: none;
-    font-size: 2em;
     color: grey;
 }
 
 .itemCarrouselArrows > a > i{
     color: white;
 }
-
-
 /* footer */
-
-footer .titulo-footer,
-footer div h2,
-footer .copy{
-    color: #4b82e2;
-}
-footer p{
-    text-align: center;
-}
-.redes{
-    display: flex;
-    justify-content: center;
-}
-.redes i{
-    font-size: 30px;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    color: #4b82e2;
-}
-i:hover{
-    cursor: pointer;
+footer{
+    flex-direction: row;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("../src/img/footer.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin:0;
+    overflow-y: auto;
 }
