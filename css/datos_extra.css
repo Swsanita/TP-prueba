@@ -2,7 +2,7 @@
     font-size: 1.04em;
 }
 
-h1{
+main{
     text-align: center;
     font-family:ComicSansMS;
     color:rgb(0, 60, 128);
@@ -63,15 +63,22 @@ a:hover{
 }
 
 header{
-    background-color: rgb(255, 255, 255);
-    animation: mymove 8s infinite;
-    flex-direction: row; 
+/*   background-color: rgb(255, 255, 255);*/
+    animation: mymove 20s infinite both;
+/*    flex-direction: row; */
+}
+header h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+header img{
+    width: 100%;
+    height: auto;
 }
 
 iframe{
     display: grid;
     border-radius: 20px;
-    margin-left: 10%;
     margin-top: 10%;
 }    
     
@@ -96,6 +103,10 @@ footer{
 
 } 
 
+.fa-solid,.fa-cat{
+    text-align: center;
+    font-size: 1.8em;
+}
 .redes{
     align-items: center;
 
