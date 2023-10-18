@@ -1,5 +1,5 @@
 *{
-    font-size: 1.04em;
+    font-size: 1.02em;
 }
 
 main{
@@ -63,15 +63,18 @@ a:hover{
 }
 
 header{
-/*   background-color: rgb(255, 255, 255);*/
     animation: mymove 20s infinite both;
-/*    flex-direction: row; */
 }
+
 header h1{
     text-align: center;
     font-size: 1.8em;
 }
-header img{
+.fa-solid,.fa-cat{
+    text-align: center;
+    font-size: 1.8em;
+}
+header img {
     width: 100%;
     height: auto;
 }
@@ -93,21 +96,8 @@ footer{
     flex-direction: row;
 }
 
-.img_header{
-    display: grid;
-    height: 15vh;
-    width: 100%;
-}
 
-.img_inner{
-    border-radius: 100px;
 
-} 
-
-.fa-solid,.fa-cat{
-    text-align: center;
-    font-size: 1.8em;
-}
 .redes{
     align-items: center;
 
@@ -209,7 +199,7 @@ footer{
             align-items: center;
             grid-template-rows: auto;
         }
-        header,footer{
+        footer{
             flex-direction: row;
         }
     .container{
@@ -257,7 +247,7 @@ footer{
                 align-items: center;
                 grid-template-rows: auto;
             }
-        header,footer{
+        footer{
                 flex-direction: row;
             }
         .container{
@@ -299,3 +289,8 @@ footer p{
 i:hover{
     cursor: pointer;
 }
+
+
+@keyframes mymove {
+    from {background-image: linear-gradient(rgba(0, 247, 255, 0.5), rgba(255, 255, 0, 0.5));}
+    to {background-color: rgb(0, 132, 255);}
