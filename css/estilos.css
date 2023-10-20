@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+main{
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff, #48f3ff);
+}
 header{
     width: 100%;
     height: 50px;

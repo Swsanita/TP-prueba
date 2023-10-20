@@ -8,6 +8,17 @@ li{
     margin: 15px;
     border-radius: 0.6em;
 }
+h4 {
+    text-align: center;
+    font-family: ComicSansMS;
+}
+h5 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px
+}
 a{
     text-decoration: none;
 }
@@ -119,6 +130,19 @@ footer{
     background-attachment: fixed;
     margin:0;
     overflow-y: auto;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes i{
+    font-size: 30px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    color: #4b82e2;
+}
+footer p{
+    text-align: center;
 }
 .responsive{
     display: grid;
