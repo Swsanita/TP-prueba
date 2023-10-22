@@ -44,6 +44,42 @@ li:hover{
     text-decoration: none;
     background:#05454a;
 }
+
+
+.main{ 
+    grid-area: 3 / 2 / 4 / 3;
+    overflow: hidden;
+    margin-top: 3px;
+    }
+.nav{
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: linear-gradient(#F5D971, #ffc800);
+    padding-bottom:5em;
+
+}      
+
+.responsive{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-template-rows: auto;
+} 
+
+.container{
+    display: grid;
+    grid-gap:3px;
+    grid-template-rows: 0% 10% 90%;
+    grid-template-columns: 100%;
+    height: 130vh;
+    background-image: linear-gradient(#ffffff, #48f3ff);
+    margin-bottom: 3px;
+    }
+.item{
+        text-align:center;
+        }
+
+
+
 /*///////////////////////////////////////*/
 .dropdown {
     position: relative;
@@ -69,6 +105,7 @@ li:hover{
   .dropdown-content a:hover {
     background-color: #6b5c5c;
   }/*/////////////////////////////////*/
+  
 main{ 
     background-color: #ffffff;
     background-image: linear-gradient(#ffffff, #48f3ff);
@@ -101,6 +138,9 @@ header img{
     from {background-image: linear-gradient(rgba(0, 247, 255, 0.5), rgba(255, 255, 0, 0.5));}
     to {background-image: linear-gradient( rgba(255, 255, 0, 0.5),rgba(0, 247, 255, 0.5));}
 }
+
+
+
 div.gal{
     text-align: center;
     font-family:ComicSansMS;
@@ -132,6 +172,7 @@ h3{
     font-size: 0.8em;
     margin-top: 10px;
     margin-left: 10%;
+    margin-bottom: 20px;
     }
 h4{
     text-align: center;
@@ -145,12 +186,7 @@ h5{
     margin-bottom: 20px;
 }
 
-/* sin usar*/
-h6{
-    text-align: justify ;
-    font-family:ComicSansMS;
-    color:rgb(87, 135, 154);
-   }
+
 
 p{
     text-align: left;
@@ -164,18 +200,8 @@ a:hover{
     color: rgb(127, 206, 255);
 }
 
-
-iframe{
-    display: grid;
-    border-radius: 20px;
-    margin-left: 10%;
-    margin-top: 10%;
-}    
     
 
-.img_inner{
-    border-radius: 100px;
-} 
 
 .img_galeria{
     border-radius: 20px;
@@ -200,20 +226,20 @@ iframe{
 }
 
 .conteCarrousel{
-    width: 100%;
-    height: 750px;
+    width: auto;
+    height: 800px;
     overflow-y: hidden;
+
 }
 
 .itemCarrousel{
     position: relative;
     width: 100%;
-    height: 750px;
+
 }
-.item
 
 .itemCarrouselTarjeta{
-    width: 100%;
+    width: 80%;
 }
 
 .itemCarrouselArrows{
@@ -248,7 +274,9 @@ iframe{
 #itemCarrousel-4{
     background-color: rgb(161, 214, 223);
 }
-
+#itemCarrousel-5{
+    background-color: rgb(143, 110, 162);
+}
 
 .conteCarrouselController{
     width: 100%;
