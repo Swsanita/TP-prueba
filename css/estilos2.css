@@ -1,12 +1,15 @@
 *{
-    font-size: 1.02em;
+    font-size: 1.08em;
 }
 li{
-    display: inline;
+    /*display: inline;*/
     background:#48f3ff;
     padding: 0.4em;
     margin: 15px;
     border-radius: 0.6em;
+    font-size: 1.08em;
+    display:inline-block;
+    width: auto;
 }
 h4 {
     text-align: center;
@@ -30,6 +33,7 @@ li:hover{
 }
 .nav_menu:hover{
     color: hsl(0, 0%, 95%);
+    
 }
 /*///////////////////////////////////////*/
 .dropdown {

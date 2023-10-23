@@ -1,5 +1,5 @@
 *{
-    font-size: 1.04em;
+    font-size: 1.07em;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ li:hover{
 }
 
 .nav_menu{
-    font-size: 1.08em;
+    font-size: 1.07em;
     display:inline-block;
     width: auto;
     border-radius:  0.6em;
@@ -34,7 +34,7 @@ li:hover{
     background:#48f3ff;
 }
 .nav_menu_activo{
-    font-size: 1.08em;
+    font-size: 1.07em;
     display:inline-block;
     width: auto;
     border-radius:  0.6em;
@@ -148,7 +148,6 @@ div.gal{
     font-size: 1.5em;
     padding-top: 5%;
     width: auto;
-    font-family: ComicSansMS;
     font-weight: 700;
     background-color: rgb(127, 206, 255);
     border-radius: 10px;
@@ -235,6 +234,7 @@ a:hover{
 .itemCarrousel{
     position: relative;
     width: 100%;
+    height: auto;
 
 }
 
