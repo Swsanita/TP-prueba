@@ -1,8 +1,9 @@
 *{
     font-size: 1cqmax;
 }
-
-
+body{
+    font-family: 'Poppins', sans-serif;
+}  
 h4{
     text-align: center;
     font-family:ComicSansMS;
@@ -15,17 +16,15 @@ h5{
     font-size: 30px;
     margin-bottom: 20px;
 }
-
 a{
     text-decoration: none;
     color:rgb(70, 167, 205);
     font-size: 90%;
-    }
+}
 a:hover{
     background: hsl(0, 0%, 95%);
     color: rgb(127, 206, 255);
 }
-
 
 header{
     animation: mymove 2s infinite both;
@@ -43,7 +42,6 @@ header img {
     width: 100%;
     height: auto;
 }
-
 footer{
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
     url("../src/img/footer.jpg");
@@ -96,74 +94,66 @@ footer{
 } 
 
 .container{
-    display: grid;
-    grid-gap:3px;
-    grid-template-rows: 0% 10% 90%;
-    grid-template-columns: 100%;
-    height: 85vh;
-    background-image: linear-gradient(#ffffff, #48f3ff);
-    margin-top: 3px;
-    margin-top: 9px;
-    }
-    .item{
-        text-align: center;
-        }
-
-
-
+display: grid;
+grid-gap:3px;
+grid-template-rows: 0% 10% 90%;
+grid-template-columns: 100%;
+height: 85vh;
+background-image: linear-gradient(#ffffff, #48f3ff);
+margin-top: 3px;
+margin-top: 9px;
+}
+.item{
+text-align: center;
+}
 
 @media only screen and (max-width:400px){
-    a:hover{
-        background-color: #fff;
-        color: rgb(127, 206, 255);
+a:hover{
+    background-color: #fff;
+    color: rgb(127, 206, 255);
+}
+.aside{ 
+    grid-area: 12 / 1 / 13 / 2;
+    background-color:#F5D971;
+    background-image: linear-gradient(#F5D971, #ffc800);
     }
-    .aside{ 
-        grid-area: 12 / 1 / 13 / 2;
-        background-color:#F5D971;
-        background-image: linear-gradient(#F5D971, #ffc800);
-        }
-    .main{ 
-        grid-area: 3 / 1 / 12 / 2;
-        background-image: linear-gradient(#ffffff, #48f3ff);
-        }
-    .nav{
-        grid-area: 2 / 1 / 3 / 2;
-        padding-bottom:5em;
-        }   
-        .responsive{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            align-items: center;
-            grid-template-rows: auto;
-        }
-        footer{
-            flex-direction: row;
-        }
-    .container{
-            display: grid;
-            grid-template-rows: 0% 10% 90%;
-            grid-template-columns: 100%;
-            overflow-y:auto;
-            flex-grow: 1;
-            height: 115vh;
-            }
-            .item{
-                text-align: center;
-                }
-                footer{
-                    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-                    url("../src/img/footer.jpg");
-                    background-size: 100%;
-                    background-attachment: fixed;
-                    margin:0;
-                    overflow-y: auto;
-                    }
-            }
-
-
-body{
-    font-family: 'Poppins', sans-serif;
-}  
+.main{ 
+    grid-area: 3 / 1 / 12 / 2;
+    background-image: linear-gradient(#ffffff, #48f3ff);
+    }
+.nav{
+    grid-area: 2 / 1 / 3 / 2;
+    padding-bottom:5em;
+    }   
+.responsive{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-template-rows: auto;
+}
+footer{
+    flex-direction: row;
+}
+.container{
+    display: grid;
+    grid-template-rows: 0% 10% 90%;
+    grid-template-columns: 100%;
+    overflow-y:auto;
+    flex-grow: 1;
+    height: 115vh;
+    }
+.item{
+    text-align: center;
+    }
+footer{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("../src/img/footer.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin:0;
+    overflow-y: auto;
+    }
+    }
 form{
     width: 450px;
     margin: auto;
@@ -172,7 +162,6 @@ form{
     box-sizing: border-box;
     margin-top: 10%;
     border-radius: 7px;
-    
 }
 h2{
     color: white;
@@ -204,7 +193,6 @@ textarea{
     cursor:pointer;
 }
 
-
 /* footer */
 
 footer .titulo-footer,
@@ -228,7 +216,6 @@ footer p{
 i:hover{
     cursor: pointer;
 }
-
 
 @keyframes mymove {
     from {background-image: linear-gradient(rgba(0, 247, 255, 0.5), rgba(255, 255, 0, 0.5));}
