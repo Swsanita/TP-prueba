@@ -1,5 +1,5 @@
 *{
-    font-size: 1cqmax;
+    font-size: 1.08em;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -25,11 +25,9 @@ a:hover{
     background: hsl(0, 0%, 95%);
     color: rgb(127, 206, 255);
 }
-
 header{
     animation: mymove 2s infinite both;
 }
-
 header h1{
     text-align: center;
     font-size: 1.8em;
@@ -52,7 +50,6 @@ footer{
     flex-direction: row;
 }
 .nav_menu{
-    font-size: 1.08em;
     display:inline-block;
     width: auto;
     border-radius:  0.6em;
@@ -62,9 +59,7 @@ footer{
     text-decoration: none;
     background:#48f3ff;
 }
-
 .nav_menu_activo{
-    font-size: 1.08em;
     display:inline-block;
     width: auto;
     border-radius:  0.6em;
@@ -74,7 +69,6 @@ footer{
     text-decoration: none;
     background:#05454a;
 }
-
 .main{ 
     grid-area: 3 / 2 / 4 / 3;
     overflow: hidden;
@@ -83,16 +77,15 @@ footer{
 .nav{
     grid-area: 2 / 1 / 3 / 3;
     background-image: linear-gradient(#F5D971, #ffc800);
-    padding: 0.1em;
-}      
-
+    padding: 1.2em;
+    height: 70px;
+}
 .responsive{
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
     grid-template-rows: auto;
 } 
-
 .container{
 display: grid;
 grid-gap:3px;
@@ -101,12 +94,10 @@ grid-template-columns: 100%;
 height: 85vh;
 background-image: linear-gradient(#ffffff, #48f3ff);
 margin-top: 3px;
-margin-top: 9px;
 }
 .item{
 text-align: center;
 }
-
 @media only screen and (max-width:400px){
 a:hover{
     background-color: #fff;
@@ -123,7 +114,6 @@ a:hover{
     }
 .nav{
     grid-area: 2 / 1 / 3 / 2;
-    padding-bottom:5em;
     }   
 .responsive{
     display: grid;
@@ -140,7 +130,7 @@ footer{
     grid-template-columns: 100%;
     overflow-y:auto;
     flex-grow: 1;
-    height: 115vh;
+    height: 100vh;
     }
 .item{
     text-align: center;
@@ -153,7 +143,7 @@ footer{
     margin:0;
     overflow-y: auto;
     }
-    }
+}
 form{
     width: 450px;
     margin: auto;
@@ -198,7 +188,7 @@ textarea{
 footer .titulo-footer,
 footer div h2,
 footer .copy{
-    color: #4b82e2;
+    color: #161616;
 }
 footer p{
     text-align: center;
