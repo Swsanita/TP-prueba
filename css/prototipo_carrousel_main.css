@@ -70,7 +70,6 @@ li:hover{
 .item{
         text-align:center;
 }
-/*///////////////////////////////////////*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -224,7 +223,6 @@ a:hover{
 .itemCarrouselArrows > i:hover {
     cursor: pointer;
 }
-
 #itemCarrousel-1{
     background-color: rgb(212, 146, 146);
 }
@@ -252,7 +250,6 @@ a:hover{
 .itemCarrouselArrows > a > i{
     color: white;
 }
-/* footer */
 footer{
     flex-direction: row;
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
