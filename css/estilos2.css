@@ -42,9 +42,12 @@ li:hover{
     position: absolute;
     z-index: 1;
     border-radius: 10px;
+}
+aside img:hover{
+    filter: brightness(100%);
   }  
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: block ;
   }  
   /* lista desplegable*/
   .dropdown-content a {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>/*
+           fetch('https://api.thecatapi.com/v1/images/search')
+                .then(response => response.json())
+                .then(json => console.log(json))
+                .catch(err => console.log('Solicitud fallida', err));
+                 const url = 'https://api.thecatapi.com/v1/images/search?limit=2';
+            const api_key = "live_ZmSqOKZ6Zr88fGHQ05tIYXmFc3HIJQMgHm4sAqWxwEeMBLUHEymu47LAnwnoflps"
+            fetch(url, {
+                headers: {
+                    'x-api-key': api_key
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const imageUrl = data[0].url; // Obtiene la URL de la imagen de gato
+                    const catImage = document.getElementById('catImage');
+                    catImage.src = imageUrl; // Establece la URL como src del elemento img
+                })
+                .catch(err => console.log('Solicitud fallida', err));*/
+        </script>
+        <title>Document</title>
+    </head>
+    <body>
+        <img id="catImage" src="../src/fondos/fondo-gatos.jpg" alt="Imagen de gato" width="225px" height="auto">
+        <button id='cargaOtroGato'>Probemos con otro!</button>
+        <script>
+            //Carga nueva imagen al presionar el boton
+            document.getElementById('cargaOtroGato').addEventListener('click', () => {
+                const url = 'https://api.thecatapi.com/v1/images/search';
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        const imageUrl = data[0].url;
+                        const catImage = document.getElementById('catImage');
+                        catImage.src = imageUrl;
+                    })
+                    .catch(err => console.log('Solicitud fallida', err));
+            });
+        </script>
+    </body>
+</html>
