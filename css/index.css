@@ -136,9 +136,9 @@ footer p{
     display: flex;
     justify-content: center;
 }
-.redes i{
+.redes a{
     font-size: 30px;
-    padding: 0 20px;
+    padding: 0 20px 5px;
     margin-bottom: 10px;
     color: #4b82e2;
 }
