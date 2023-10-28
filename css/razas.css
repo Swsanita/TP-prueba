@@ -52,6 +52,14 @@ nav{
     background-image: linear-gradient(#F5D971, #ffc800);
     padding-bottom:4em;
 }     
+::-webkit-scrollbar {
+    background-color:rgb(247, 143, 6);
+  }
+  
+  /* Cambiar el color resaltado de la barra desplazadora */
+  ::-webkit-scrollbar-thumb {
+    background-color:rgb(10, 99, 7);
+  }
 .responsive{
     display: grid;
     grid-template-columns: auto auto auto;

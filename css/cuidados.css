@@ -28,6 +28,14 @@ h5{
     font-size: 30px;
     margin-bottom: 20px;
 }
+::-webkit-scrollbar {
+    background-color:rgb(247, 143, 6);
+  }
+  
+  /* Cambiar el color resaltado de la barra desplazadora */
+  ::-webkit-scrollbar-thumb {
+    background-color:rgb(10, 99, 7);
+  }
 p{
     text-align: left;
     }
