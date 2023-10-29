@@ -82,7 +82,9 @@ aside img {
     border-radius: 10%;
     align-items: center;
     }
-
+aside img:hover{
+    transform:scale(1.2,1.2);
+}
 
 main{ 
     grid-area: 3 / 2 / 4 / 3;
@@ -245,7 +247,7 @@ footer img {
 footer .titulo-footer,
 footer div h2,
 footer .copy{
-    color: #4b82e2;
+    color: #1c1c1d;
 }
 footer p{
     text-align: center;
