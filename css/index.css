@@ -249,7 +249,7 @@ footer{
 }
 @media only screen and (max-width:640px){
 *{
-    font-size: 1.02em;
+    font-size: 1.01em;
 }
     ul {
     list-style-type: none;
