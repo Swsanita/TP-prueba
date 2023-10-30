@@ -1,4 +1,6 @@
 *{
+    animation-name: container_move;
+    animation-duration: 1s;
     font-size: 1.08em;
 }
 
@@ -223,4 +225,8 @@ i:hover{
 
 @keyframes mymove {
     from {background-image: linear-gradient(rgba(0, 247, 255, 0.5), rgba(255, 255, 0, 0.5));}
-    to {background-image: linear-gradient( rgba(255, 255, 0, 0.5),rgba(0, 247, 255, 0.5));}}
+    to {background-image: linear-gradient( rgba(255, 255, 0, 0.5),rgba(0, 247, 255, 0.5));}
+}
+@keyframes container_move {
+    from {opacity:0;} to {opacity: 1;}
+}
