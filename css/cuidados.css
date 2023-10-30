@@ -99,15 +99,22 @@ nav{
     background-image: linear-gradient(#F5D971, #ffc800);
     padding: 1.2em;
     height: 70px;
-}      
-
+}   
+button{
+    background-image: linear-gradient(#F5D971, #ffc800);
+    padding: 1em;
+    margin: 0.5em;
+}
+button:hover{
+    background-image: linear-gradient(#9b8125, #524105);
+    color: #fff;
+}
 iframe{
     display: grid;
     border-radius: 20px;
     margin-top: 10%;
     overflow: hidden;
 }    
-    
 footer{
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
     url("../src/img/footer.jpg");
