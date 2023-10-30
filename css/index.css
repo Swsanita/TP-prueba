@@ -1,7 +1,10 @@
 *{
     animation-name: container_move;
     animation-duration: 2s;
-    font-size: 1.08em;
+    font-size: 1.07em;
+}
+nav, main, aside, footer{
+   font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
 }
 li{
     background:#48f3ff;
@@ -9,10 +12,6 @@ li{
     margin: 15px;
     border-radius: 0.6em;
     display:inline-block;
-}
-h4 {
-    text-align: center;
-    font-family: ComicSansMS;
 }
 h5 {
     color: rgb(0, 0, 0);

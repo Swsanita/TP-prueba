@@ -1,9 +1,11 @@
 *{
     animation-name: container_move;
     animation-duration: 1s;
-    font-size: 1.08em;
 }
-
+nav, main, aside, footer{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-size: 1.4em;
+ }
 h2{
     color: white;
     text-align: center;
@@ -54,11 +56,7 @@ header h1{
 header img {
     width: 100%;
     height: auto;
-}
-body{
-    font-family: 'Poppins', sans-serif;
 }  
-
 main{ 
     grid-area: 3 / 2 / 4 / 3;
     overflow: auto;
