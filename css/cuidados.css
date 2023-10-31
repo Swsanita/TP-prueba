@@ -25,6 +25,10 @@ h4{
     font-family:ComicSansMS;
     color:green;
 }
+#catImage{
+    width: 49%;
+    max-height:auto;
+}
 h5{
     color: rgb(0, 0, 0);
     text-align: center;
